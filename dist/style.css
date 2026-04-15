@@ -33,7 +33,7 @@ html {
 }
 
 #navbar .nav-item {
-  padding: 7px 10px;
+  padding: 10px 0px;
   transition: 0.3s all;
 }
 
@@ -118,6 +118,55 @@ html {
   border: none;
 }
 
+
+
+
+
+#navbar .dropdown-menu {
+  border: none;
+  border-radius: 14px;
+  padding: 10px 0;
+  margin-top: 0px;
+  background: #ffffff;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+#navbar .dropdown-item {
+  font-size: 16px;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  padding: 10px 20px;
+  transition: 0.3s all;
+}
+
+#navbar .dropdown-item:hover {
+  background-color: transparent;
+  color: #ff0000;
+}
+
+#navbar .dropdown-toggle::after {
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+#navbar .dropdown-item.m-active {
+  color: #ff0000;
+  font-weight: 500;
+}
+
+#navbar .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+
+
+
+
+
+
 .inner_banner {
   background-image: url(./images/inner-banner.png);
   background-repeat: no-repeat;
@@ -154,6 +203,16 @@ html {
 .inner_banner-navc {
   color: #ff0000;
 }
+
+
+
+
+
+
+
+
+
+
 
 .compant_connect-left-head {
   font-family: "Gilroy-Bold", sans-serif;
@@ -366,6 +425,15 @@ html {
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 40px;
+
+  p{
+    /* background-color: green; */
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 40px;
+    
+  }
+  
 }
 
 .get_discount-btn {
@@ -916,7 +984,7 @@ html {
   color: #ffffff;
   padding-top: 96px;
   padding-bottom: 180px;
-  margin-bottom: 130px;
+  /* margin-bottom: 130px; */
 }
 
 .ridersNav-left-head {
@@ -985,8 +1053,8 @@ html {
 .tagline {
   font-family: "Gilroy-Bold", sans-serif;
   font-weight: 400;
-  font-size: 70px;
-  line-height: 86px;
+  font-size: 30px;
+  line-height: 66px;
   text-align: center;
   color: #ffffff;
   display: inline-block;
@@ -995,7 +1063,112 @@ html {
     0px 4px 3px rgba(0, 0, 0, 0.4),
     0px 8px 13px rgba(0, 0, 0, 0.1),
     0px 18px 23px rgba(0, 0, 0, 0.1);
-  margin-bottom: 38px;
+  margin-bottom: 20px;
+}
+
+.inner_banner-logo {
+  margin-bottom: 22px;
+  pointer-events: none;
+}
+
+.inner_banner-img img {
+  max-width: 380px;
+}
+
+.banner-order-box {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 38px;
+  pointer-events: auto;
+}
+
+.banner-order-input {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 18px;
+  padding: 0 20px;
+  height: 64px;
+  
+}
+
+.banner-order-input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #000000;
+  
+}
+
+.banner-order-input input::placeholder {
+  color: #666666;
+  
+}
+
+.banner-order-select {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 18px;
+  padding: 0 18px;
+  height: 64px;
+  min-width: 220px;
+  
+}
+
+.banner-order-select select {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #000000;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+}
+
+.banner-order-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-size: 22px;
+  flex-shrink: 0;
+  
+}
+
+.banner-search-btn {
+  border: none;
+  outline: none;
+  background: #ff0000;
+  color: #ffffff;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 18px;
+  padding: 0 28px;
+  height: 64px;
+  border-radius: 18px;
+  transition: 0.3s all;
+  white-space: nowrap;
+}
+
+.banner-search-btn:hover {
+  background: #000000;
 }
 
 .social-links {
@@ -1014,11 +1187,12 @@ html {
   box-shadow: 0 18px 30px -8px #000d1a;
 }
 
+
 .your-reff {
   background-color: #ff000024;
   padding-top: 100px;
-  margin-bottom: 130px;
-  padding-bottom: 165px;
+  margin-bottom: 80px;
+  padding-bottom: 100px;
   position: relative;
 }
 
@@ -1027,7 +1201,7 @@ html {
 }
 
 .your-reff-right {
-  position: absolute;
+  /* position: absolute; */
 }
 
 .your-reff-left-head {
@@ -1051,7 +1225,7 @@ html {
 }
 
 .food-meals {
-  margin-bottom: 130px;
+  margin-bottom: 12px;
 }
 
 .food-meals-rows {
@@ -1076,6 +1250,33 @@ html {
   width: 400px;
 }
 
+
+
+.food-meals-img {
+  position: relative;
+  overflow: hidden;
+  /* border-radius: 20px; */
+}
+
+.food-meals-img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.food-meals-img img {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+
+
+
 .food-meals-txt-head {
   font-family: "Gilroy-Bold", sans-serif;
   font-weight: 400;
@@ -1092,14 +1293,37 @@ html {
 }
 
 .howItWorks {
-  margin-bottom: 130px;
+  margin-bottom: 200px;
+}
+
+.howItWorks-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 40px;
+  margin-bottom: 60px;
 }
 
 .howItWorks-head {
   font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 200;
+  font-size: 50px;
+  margin-bottom: 0px;
+  line-height: 110%;
+  justify-content: center;
+  
+}
+
+.howItWorks-text {
+  margin-top: 60px;
+  max-width: 560px;
+  font-family: "Gilroy-Medium", sans-serif;
   font-weight: 400;
-  font-size: 70px;
-  margin-bottom: 60px;
+  font-size: 19px;
+  line-height: 170%;
+  color: #333333;
+  text-align: left;
+  
 }
 
 .howItWorks-rows {
@@ -1133,6 +1357,17 @@ html {
   font-size: 16px;
 }
 
+@media (max-width: 991px) {
+  .howItWorks-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .howItWorks-text {
+    max-width: 100%;
+  }
+}
 .customer-review {
   margin-bottom: 130px;
 }
@@ -1256,6 +1491,7 @@ html {
 .img_carder55 {
   width: 100%;
   transition: all 0.3s ease-in-out;
+  border-radius: 30px;
 }
 .carder55:hover .img_carder55 {
   filter: brightness(0.7);

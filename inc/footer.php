@@ -22,6 +22,11 @@
                     <div class="col-md-2">
                         <div class="footerLogo">
                             <a href="./"><img src="images/footer-logo.png" class="img-fluid"></a>
+                            <div style="font-size: 18px; color: white; margin-top: 10px;">
+                                <p>
+                                    Powered by, Grajoh & Pek
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -35,7 +40,7 @@
                         <div class="footerLink">
                             <ul>
                                 <li>
-                                    <a href="./">Home</a>
+                                    <a href="./">Company</a>
                                 </li>
                                 <li>
                                     <a href="vendors">Vendors</a>

@@ -52,12 +52,12 @@ new WOW().init();
     <div class="container">
         <div class="inner_banner-logo">
             <div class="inner_banner-img">
-                <img src="images/inner-logo.png" class="img-fluid">
+                <img src="images/never-cook-again.png" class="img-fluid">
             </div>
         </div>
         <div class="inner_banner-nav">
             <div class="inner_banner-nava">
-                <a href="./">Home</a>
+                <a href="./">Company</a>
             </div>
             <div class="inner_banner-navb">|</div>
             <div class="inner_banner-navc">Blog</div>

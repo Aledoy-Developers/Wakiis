@@ -3,8 +3,10 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="get_discount-left">
-                    <div class="get_discount-left-head">Get 20% Discount</div>
-                    <p>Download the app, sign up, and get instant access to restaurants near you.</p>
+                    <div class="get_discount-left-head"></div>
+                    <p>Get two free Delivery Per Month for Three Months and a cashback of 1% When you Eat With Us.</p>
+                    <p></p>
+                    
                     <div class="get_discount-btn">
                         <a href="">
                             <img src="images/app-store.svg" class="img-fluid">
@@ -24,9 +26,9 @@
     </div>
     <div class="discout_img">
         <div class="image-container">
-             <img src="images/discount-img1.png" class="img-fluid image image-1">
+             <img src="images/Phone Screen 1.png" class="img-fluid image image-1">
             
-            <img src="images/discount-img2.png" class="img-fluid image image-2">
+            <img src="images/Phone Screen 2.png" class="img-fluid image image-2">
         </div>
     </div>
 </div>

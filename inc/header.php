@@ -9,16 +9,22 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link <?php if ($page == 'index.php') { echo 'm-active'; } ?>" href="./">Home</a>
+        <a class="nav-link <?php if ($page == 'index.php') { echo 'm-active'; } ?>" href="./">Company</a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link <?php if ($page == 'company.php') { echo 'm-active'; } ?>" href="company">Company</a>
+      </li> -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle <?php if ($page == 'vendors.php' || $page == 'riders.php') { echo 'm-active'; } ?>" href="#" id="partnerDropdown">
+          Become a Partner
+        </a>
+        <div class="dropdown-menu" aria-labelledby="partnerDropdown">
+          <a class="dropdown-item <?php if ($page == 'vendors.php') { echo 'm-active'; } ?>" href="vendors">Partner Vendor</a>
+          <a class="dropdown-item <?php if ($page == 'riders.php') { echo 'm-active'; } ?>" href="riders">Partner Rider</a>
+        </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link <?php if ($page == 'vendors.php') { echo 'm-active'; } ?>" href="vendors">Vendors</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link <?php if ($page == 'riders.php') { echo 'm-active'; } ?>" href="riders">Riders</a>
+        <a class="nav-link <?php if ($page == 'career.php') { echo 'm-active'; } ?>" href="career">Career</a>
       </li>
       <li class="nav-item">
         <a class="nav-link <?php if ($page == 'blog.php') { echo 'm-active'; } ?>" href="blog">Blog</a>
@@ -39,7 +45,7 @@
             </div>
             <div class="menuNavRb">
               <div class="menuNavRb-sub">Support</div>
-              <div class="menuNavRb-head">+234 08646 8601</div>
+              <div class="menuNavRb-head"> 080 8646 8601</div>
             </div>
           </div>
         </div>

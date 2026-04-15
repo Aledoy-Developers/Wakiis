@@ -60,57 +60,82 @@ new WOW().init();
                 <a href="./">Company</a>
             </div>
             <div class="inner_banner-navb">|</div>
-            <div class="inner_banner-navc">Contact</div>
+            <div class="inner_banner-navc">Career</div>
         </div>
     </div>
 </div>
 
-<div class="container">
-    <div class="contact_section">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="contact-head">Get in touch with us. We're here to assist you.</div>
-            </div>
-        </div>
-        <div class="contactRows">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="contact-inputs">
-                        <p>Your Name</p>
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="contact-inputs">
-                        <p>Email Address</p>
-                        <input type="email">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="contact-inputs">
-                        <p>Phone Number (optional)</p>
-                        <input type="number">
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="contact-inputs">
-                        <p>Message</p>
-                        <textarea name="" id="" rows="4"></textarea>
-                    </div>
-                </div>
-            </div>
-            <button><i class="ph ph-arrow-circle-up-right"></i> Leave us a message</button>
-        </div>
+
+
+
+
+<section class="career-page-section">
+    <style>
+.career-page-section {
+  /* padding: 120px 20px 80px; */
+  background: white;
+  margin-bottom: 60px;
+  
+}
+
+.career-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ff000024;
+  color: white;
+  padding: 40px 100px;
+}
+
+.career-page-title {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 48px;
+  line-height: 1.2;
+  color: black;
+  margin-bottom: 24px;
+}
+
+.career-page-text {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.career-page-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 14px 30px;
+  background: #ff0000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 40px;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 16px;
+  transition: 0.3s all;
+}
+
+.career-page-btn:hover {
+  background: #d80000;
+  color: #ffffff;
+}
+    </style>
+    <div class="career-page-container">
+        <h1 class="career-page-title">Build with Wakiis</h1>
+        <p class="career-page-text">
+            Join a team that is passionate about food, technology, and making delivery easier for everyone. At Wakiis, we value innovation, teamwork, and people who are ready to make an impact.
+        </p>
+        <p class="career-page-text">
+            If there are no open roles at the moment, you can still send your CV to us and we will keep it on file for future opportunities.
+        </p>
+        <a href="mailto:careers@wakiis.com" class="career-page-btn">Send Your CV</a>
     </div>
-</div>
+</section>
+
+
+
+
 
 
 <?php include 'inc/footer.php'; ?>
-<style>
-    .footer {
-  background-color: #ffffff;
-}
-</style>
-
-</body>
-</html>
