@@ -64,6 +64,11 @@ new WOW().init();
         </div>
     </div>
 </div>
+ <?php 
+ if (isset($errorMsg)) {
+    echo "error: " . $errorMsg;
+ }
+ ?>
 
 <div class="container">
     <div class="contact_section">
@@ -72,36 +77,49 @@ new WOW().init();
                 <div class="contact-head">Get in touch with us. We're here to assist you.</div>
             </div>
         </div>
+        <form action="proc-contact.php" method="post">
         <div class="contactRows">
             <div class="row">
                 <div class="col-md-4">
                     <div class="contact-inputs">
                         <p>Your Name</p>
-                        <input type="text">
+                        <input type="text" name="fullname" >
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="contact-inputs">
                         <p>Email Address</p>
-                        <input type="email">
+                        <input type="email" name="email" >
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="contact-inputs">
                         <p>Phone Number (optional)</p>
-                        <input type="number">
+                        <input type="text" name="phone">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="contact-inputs">
+                        <p>Subject</p>
+                        <input type="text" name="subject" >
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="contact-inputs">
                         <p>Message</p>
-                        <textarea name="" id="" rows="4"></textarea>
+                        <textarea name="message" rows="4" ></textarea>
                     </div>
                 </div>
             </div>
-            <button><i class="ph ph-arrow-circle-up-right"></i> Leave us a message</button>
+            <button type="submit"><i class="ph ph-arrow-circle-up-right"></i> Leave us a message</button>
         </div>
+        
+        </form>
+
     </div>
+</div>
+
+    
 </div>
 
 
