@@ -42,7 +42,7 @@ try {
 
     // Sender and recipient
     $mail->setFrom('aledoysolutions2@gmail.com', 'Wakiis WEBSITE');
-    $mail->addAddress('kosadebe364@gmail.com');
+    $mail->addAddress('info@wakiis.com');
     $mail->addReplyTo($email, $name);
 
     // Email content
