@@ -32,7 +32,7 @@
                     <div class="col-md-4">
                         <div class="footerAdd">
                             <div class="footerAdd-info">9 Femi Bankole Close, Pab Bus Stop, Ikotun Idimu Road, Lagos.</div>
-                            <div class="footerAdd-sub">+234 808 646 8601</div>
+                            <div class="footerAdd-sub">+234 703 271 0452</div>
                             <div class="footerAdd-sub">contact@wakiis.com</div>
                         </div>
                     </div>
