@@ -24,7 +24,7 @@
                             <a href="./"><img src="images/footer-logo.png" class="img-fluid"></a>
                             <div style="font-size: 18px; color: white; margin-top: 10px;">
                                 <p>
-                                    Powered by, Grajoh & Pek
+                                    Powered by, <a href="http://grajohandpek.com" target="_blank" style="color:white;">Grajoh & Pek</a>
                                 </p>
                             </div>
                         </div>
