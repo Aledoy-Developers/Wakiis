@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
     
-<title>Wakiis | Home</title>
+<title>Wakiis | Home | Explore Vendors. Order Instantly. Enjoy Every Bite.</title>
     
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
